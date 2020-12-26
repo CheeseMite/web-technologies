@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: url("piccheese.png") no-repeat;
+                background-size: cover;
+            }
+
+            div {
+                border: 5px solid black;
+                height: 420px;
+                margin: 10px 0;
+                width: 600px;
+                float:left;
+            }
+            #f1 {
+                background: linear-gradient(180deg,red,blue);
+            }
+            #f2 {
+                background: linear-gradient(180deg,red 0%,blue 50%, green 100%);
+            }
+            #f3 {
+                background: repeating-linear-gradient(180deg,red 0px,blue 50px);
+            }
+            #f4 {
+                background: radial-gradient(red,blue);
+            }
+            #f5 {
+                background: radial-gradient(red 0%,green 30%,blue 100%);
+            }
+            #f6 {
+                background: radial-gradient(circle,red,blue);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="f1" > block </div>
+        <div id="f2"> block </div>
+        <div id="f3" > block </div>
+        <div id="f4"> block </div>
+        <div id="f5" > block </div>
+        <div id="f6"> block </div>
+    </body>
+</html>

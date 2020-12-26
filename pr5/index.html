@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ::selection {
+                color : red;
+            }
+            p[id^="h"] {
+                color : blue;
+            }
+            p[class$="_test"] {
+                font-size: 30px;
+            }
+            p:first-child {
+                color : pink;
+            }
+            p:last-child {
+                color : green;
+            }
+            p:nth-child(2) span {
+                color : darkorchid;
+            }
+            article {
+                width: 400px;
+            }
+            article p {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            section {
+                width: 300px;
+            }
+            section p {
+                word-wrap: break-word;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="h20w" class="p_test"> text </p>
+        <p id="w20" class="p"> text </p>
+        <div > block </div>
+        <div > block </div>
+        <div > 
+            <p> First</p>
+            <p> Second <span> span </span> </p>
+            <p> 3d <span> span </span> </p>
+            <p> Last  </p>
+        </div>
+        <hr>
+        <article>
+            <p> Text inside an article, it's a very large text by the way, you know?</p>
+        </article>
+
+        <section>
+            <p> Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong word!</p>
+        </section>
+    </body>
+</html>
+
+<!-- -->
