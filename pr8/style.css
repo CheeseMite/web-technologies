@@ -1,0 +1,66 @@
+book {
+    width: 600px;
+}
+
+page {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+content {
+    display: block;
+    height: 700px;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+theme_l {
+    float: left;
+}
+
+theme_r {
+    float: right;
+}
+
+nump_l {
+    float: left;    
+}
+
+nump_r {
+    float: right;
+}
+
+colontitul {
+    border-bottom: 1px solid black;
+    height : 20px;
+    width: 100%;
+    display: block;
+}
+
+image {
+    display: block;
+    width: 800px;
+    height: 350px;
+    background:no-repeat url(pic.png);   
+}
+
+image_title {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+b {
+    font-weight: 1000;
+}

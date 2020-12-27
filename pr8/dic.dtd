@@ -1,0 +1,19 @@
+<!ELEMENT book (page+)>
+<!ELEMENT colontitul ((theme_l | theme_r), (nump_l | nump_r))>
+<!ELEMENT page (colontitul, content)>
+<!ELEMENT content (image*,image_title*,p+)>
+<!ELEMENT theme_r (#PCDATA)>
+<!ELEMENT theme_l (#PCDATA)>
+<!ELEMENT nump_r (#PCDATA)>
+<!ELEMENT nump_l (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT p ANY>
+<!ELEMENT image EMPTY>
+<!ELEMENT image_title (#PCDATA)>
+<!ATTLIST book 
+    size CDATA #REQUIRED
+    name CDATA #REQUIRED
+>
+<!ATTLIST page 
+    num CDATA #REQUIRED
+>
